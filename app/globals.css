@@ -101,8 +101,12 @@
     @apply border-dotted bg-zinc-400 max-w-4xl my-10 mx-auto;
   }
 
+  .divider-displaypage {
+    @apply border-dotted bg-zinc-400 my-10 mx-auto;
+  }
+
   .view_skeleton {
-    @apply bg-zinc-400 h-10 w-24 rounded-lg fixed bottom-3 right-3;
+    @apply bg-zinc-400 h-10 w-24 rounded-lg fixed bottom-10 right-3;
   }
 
   /* navbar */
@@ -187,7 +191,7 @@
 
   /* view */
   .view-container {
-    @apply flex justify-end items-center mt-5 fixed bottom-3 right-3;
+    @apply flex justify-end items-center mt-5 fixed bottom-16 right-3;
   }
 
   .view-text {
