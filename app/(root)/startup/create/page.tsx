@@ -1,4 +1,4 @@
-import StartupForm from "@/components/startupFromrefactor";
+import StartupForm from "@/components/startupFormNew";
 import { auth } from "@/auth";
 import { redirect } from "next/navigation";
 

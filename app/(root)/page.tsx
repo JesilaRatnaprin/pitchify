@@ -14,7 +14,8 @@ export default async function Home({
   const params = { search: query || null };
 
   const session = await auth();
-
+  console.log(session?.id);
+  
   const [{ data: posts }, { select: editorPosts }] = await Promise.all([
     sanityFetch({ query: STARTUPS_QUERY, params }),
     client.fetch(PLAYLIST_BY_SLUG_QUERY, {
